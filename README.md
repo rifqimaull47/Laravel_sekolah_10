@@ -1,28 +1,33 @@
-# 🎓 Sistem Manajemen Data Siswa
+<p align="center">
+  <a href="https://laravel.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+  </a>
+</p>
 
-<div align="center">
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-10-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 10">
+  <img src="https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+</p>
 
-### Tugas Laravel 10
+<h1 align="center">Sistem Manajemen Data Siswa</h1>
 
-**Rifqi Maulana Yusup**
-**XII PPLG 3**
+<p align="center">
+  <strong>Tugas Laravel 10</strong>
+</p>
 
-![Laravel](https://img.shields.io/badge/Laravel-10-FF2D20?style=for-the-badge\&logo=laravel\&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge\&logo=bootstrap\&logoColor=white)
-
-</div>
+<p align="center">
+  Rifqi Maulana Yusup • XII PPLG 3
+</p>
 
 ---
 
-## 📌 Tentang Project
+## 📚 Tentang Project
 
-**Sistem Manajemen Data Siswa** adalah project sederhana berbasis **Laravel 10** yang dibuat untuk memenuhi tugas pembelajaran Laravel.
+Project ini merupakan **Tugas Laravel 10** yang dibuat untuk pembelajaran pengembangan aplikasi web menggunakan framework Laravel.
 
-Project ini digunakan untuk mengelola data siswa secara sederhana melalui fitur **CRUD (Create, Read, Update, Delete)**.
-
----
+Aplikasi ini digunakan untuk mengelola data siswa dengan fitur CRUD sederhana.
 
 ## ✨ Fitur
 
@@ -31,127 +36,31 @@ Project ini digunakan untuk mengelola data siswa secara sederhana melalui fitur 
 * ✏️ Mengedit data siswa
 * 🗑️ Menghapus data siswa
 * 🔎 Mencari data siswa
-* 🎓 Menyimpan data kelas
-* 🪪 Menyimpan data NISN
-* 📱 Tampilan responsive menggunakan Bootstrap
+* 🎓 Data kelas siswa
+* 🪪 Data NISN siswa
+* 📱 Tampilan responsive dengan Bootstrap
+
+## 🛠️ Teknologi
+
+* **Laravel 10**
+* **PHP**
+* **MySQL**
+* **Bootstrap 5**
+* **Blade**
+* **Git & GitHub**
+
+## 👨‍🎓 Identitas
+
+| Keterangan  | Detail              |
+| ----------- | ------------------- |
+| **Nama**    | Rifqi Maulana Yusup |
+| **Kelas**   | XII PPLG 3          |
+| **Project** | Tugas Laravel 10    |
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
-
-| Teknologi        | Keterangan                |
-| ---------------- | ------------------------- |
-| **Laravel 10**   | Framework utama           |
-| **PHP**          | Bahasa pemrograman        |
-| **MySQL**        | Database                  |
-| **Bootstrap 5**  | Styling dan responsive UI |
-| **Blade**        | Template engine Laravel   |
-| **Git & GitHub** | Version control           |
-
----
-
-## 📂 Struktur Project
-
-```text
-sekolah/
-├── app/
-│   ├── Http/
-│   │   └── Controllers/
-│   └── Models/
-│
-├── database/
-│   ├── migrations/
-│   └── seeders/
-│
-├── resources/
-│   └── views/
-│       └── siswa/
-│           ├── index.blade.php
-│           ├── create.blade.php
-│           └── edit.blade.php
-│
-├── routes/
-│   └── web.php
-│
-└── README.md
-```
-
----
-
-## 🧑‍💻 Data Siswa
-
-Data yang dikelola dalam sistem terdiri dari:
-
-* **Nama Siswa**
-* **Kelas**
-* **NISN**
-
----
-
-## 🚀 Cara Menjalankan Project
-
-Clone repository:
-
-```bash
-git clone https://github.com/rifqimaull47/Laravel_sekolah_10.git
-```
-
-Masuk ke folder project:
-
-```bash
-cd Laravel_sekolah_10
-```
-
-Install dependency:
-
-```bash
-composer install
-```
-
-Copy file environment:
-
-```bash
-cp .env.example .env
-```
-
-Generate application key:
-
-```bash
-php artisan key:generate
-```
-
-Sesuaikan konfigurasi database pada file `.env`, kemudian jalankan:
-
-```bash
-php artisan migrate
-```
-
-Jalankan server Laravel:
-
-```bash
-php artisan serve
-```
-
-Buka:
-
-```text
-http://127.0.0.1:8000
-```
-
----
-
-## 👨‍🎓 Identitas Pembuat
-
-**Nama:** Rifqi Maulana Yusup
-**Kelas:** XII PPLG 3
-**Project:** Tugas Laravel 10
-
----
-
-<div align="center">
-
-### Made with using Laravel 10
-
-**Rifqi Maulana Yusup — XII PPLG 3**
-
-</div>
+<p align="center">
+  <strong>Made with Laravel 10</strong>
+  <br>
+  Rifqi Maulana Yusup — XII PPLG 3
+</p>
